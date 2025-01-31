@@ -1,11 +1,9 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Brain, Cpu, Network } from 'lucide-react';
 
 const Hero = () => {
   return (
     <div className="relative h-screen flex items-center overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800">
-      {/* Animated AI Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 ai-circuit-pattern animate-circuit-flow opacity-20" />
         <div className="absolute inset-0 bg-ai-gradient animate-pulse-slow" />

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -15,7 +14,6 @@ function App() {
         <Services />
         <WhyUs />
         <TechStack />
-        {/* Other sections will be added here */}
       </div>
     </AnimatePresence>
   );
