@@ -55,8 +55,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
-      {/* Mobile menu */}
       {isOpen && (
         <motion.div
           initial={{ opacity: 0, height: 0 }}
